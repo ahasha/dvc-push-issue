@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  foo:
+    cmd: echo "A file" > data/foo.txt
+    outs:
+    - path: data/foo.txt
+      hash: md5
+      md5: 8fdd769621e003fe3c0c21e9929b491e
+      size: 7

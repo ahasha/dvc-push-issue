@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-dvc = "3.30.1"
+dvc = "3.30.3"
 dvc-gs = "^2.22.1"
 
 

@@ -3,3 +3,7 @@ stages:
     cmd: echo "A file" > data/foo.txt
     outs:
     - data/foo.txt
+  bar:
+    cmd: mkdir data/bar/ && echo "A file in a directory" > data/bar/first.txt
+    outs:
+    - data/bar/

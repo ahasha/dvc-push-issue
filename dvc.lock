@@ -7,3 +7,11 @@ stages:
       hash: md5
       md5: 8fdd769621e003fe3c0c21e9929b491e
       size: 7
+  bar:
+    cmd: mkdir data/bar/ && echo "A file in a directory" > data/bar/first.txt
+    outs:
+    - path: data/bar/
+      hash: md5
+      md5: 0094fc824a413b994ecf30756dcb6f17.dir
+      size: 22
+      nfiles: 1
